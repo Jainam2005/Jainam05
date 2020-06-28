@@ -3,15 +3,13 @@ public class Student
     String name;
     int age;
     double m1,m2,m3,maximum,average;
-    Student()
+    Student(double m111, double m2111, double m3111, String name11, int age11)
     {
-        name="";
-        age=0;
-        m1=0.0;
-        m2=0.0;
-        m3=0.0;
-        maximum=0.0;
-        average=0.0;
+        name=name11;
+        age=age11;
+        m1=m111;
+        m2=m2111;
+        m3=m3111;
     }
     public void input(String name1, int age1, double m11, double m21, double m31)
     {
@@ -38,7 +36,7 @@ public class Student
     }
     public static void main()
     {
-        Student obj=new Student();
+        Student obj=new Student(0.0,0.0,0.0,"",0);
         obj.input("Jainam",15,100.0,99.0,99.0);
         obj.calc();
         obj.display();
