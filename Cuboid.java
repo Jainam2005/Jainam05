@@ -7,9 +7,10 @@ class Cuboid
         b=b1;
         h=h1;
     }
-    void calc()
+    double calc()
     {
         area=l*b*h;
+        return area;
     }
     void display()
     {

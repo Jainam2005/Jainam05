@@ -1,13 +1,20 @@
 class Account
 {
-    double balance;
+    double balance, Account_No;
+    String name, type;
     Account()
     {
         balance=0;
+        Account_No=0;
+        name="";
+        type="";
     }
-    void startAccount(double amt)
+    void startAccount(double amt, double acc, String name1, String type1)
     {
         balance=amt;
+        Account_No=acc;
+        name=name1;
+        type=type1;
     }
     void deposit(double amount)
     {
@@ -15,19 +22,28 @@ class Account
     }
     void withdraw(double amount)
     {
+        if(balance>=amount)
+        {
         balance-=amount;
+        }
+        else
+        {
+        System.out.println("Cannot Withdraw");
+        }
     }
-    double getBalance()
+    void display()
     {
-        return balance;
+        System.out.println("The name is"+name);
+        System.out.println("The account number is"+Account_No);
+        System.out.println("The account type is "+type);
+        System.out.println("The balance is"+balance);
     }
     public static void main()
     {
         Account my_amount=new Account();
-        my_amount.startAccount(5000.0);
-        my_amount.deposit(1000.0);
-        System.out.println("Current balance"+my_amount.getBalance());
-        my_amount.withdraw(1000.0);
-        System.out.println("Remaining balance"+my_amount.getBalance());
+        my_amount.startAccount(2000.0,1111.0,"Jainam","Savings");
+        my_amount.deposit(0.0);
+        my_amount.withdraw(4000.0);
+        my_amount.display();
     }
 }

@@ -42,7 +42,7 @@ public class Employee
     public static void main()
     {
         Employee obj=new Employee();
-        obj.input(1111,"Jainam",305000);
+        obj.input(1111,"Jainam",300000);
         obj.calc();
         obj.display();
     }
