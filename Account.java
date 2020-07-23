@@ -43,7 +43,7 @@ class Account
         Account my_amount=new Account();
         my_amount.startAccount(2000.0,1111.0,"Jainam","Savings");
         my_amount.deposit(0.0);
-        my_amount.withdraw(4000.0);
+        my_amount.withdraw(2000.0);
         my_amount.display();
     }
 }
