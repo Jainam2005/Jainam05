@@ -7,7 +7,7 @@ class Electric_Bill
     {
         Scanner sc=new Scanner(System.in);
         double u=0;
-        System.out.println("Enter the Internet usage(in u):");
+        System.out.println("Enter the units used(in u):");
         u=sc.nextInt();
         units=u;
     }

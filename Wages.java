@@ -6,12 +6,12 @@ class Wages
     {
         Scanner sc=new Scanner(System.in);
         double Hours=0;
-        System.out.println("Enter the Internet usage(in Hours):");
+        System.out.println("Enter the hours of usage(in Hours):");
         Hours=sc.nextInt();
         H=Hours;
         Scanner sb=new Scanner(System.in);
         double Rate=0;
-        System.out.println("Enter the Internet usage(in Rate):");
+        System.out.println("Enter the rate of usage(in Rate):");
         Rate=sb.nextInt();
         R=Rate;
     }
