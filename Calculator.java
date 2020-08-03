@@ -2,7 +2,7 @@ import java.util.Scanner;
 class Calculator
 {
    static double x,y;
-   static  char ch;
+   static char ch;
     Calculator()
     {
         Scanner sc=new Scanner(System.in);
