@@ -5,15 +5,10 @@ class Wages
     void accept()
     {
         Scanner sc=new Scanner(System.in);
-        double Hours=0;
         System.out.println("Enter the hours of usage(in Hours):");
-        Hours=sc.nextInt();
-        H=Hours;
-        Scanner sb=new Scanner(System.in);
-        double Rate=0;
+        H=sc.nextInt();
         System.out.println("Enter the rate of usage(in Rate):");
-        Rate=sb.nextInt();
-        R=Rate;
+        R=sc.nextInt();
     }
     void compute()
     {

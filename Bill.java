@@ -6,10 +6,8 @@ class Bill
     void getData()
     {
         Scanner sc=new Scanner(System.in);
-        double mins=0;
         System.out.println("Enter the Internet usage(in mins):");
-        mins=sc.nextInt();
-        usage=mins;
+        usage=sc.nextInt();
     }
     void generateBill()
     {

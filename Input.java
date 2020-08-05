@@ -5,18 +5,15 @@ public class Input
     double weight, number;
     void input()
     {
-        Scanner sd=new Scanner(System.in);
-        System.out.println("Enter your name");
-        name=sd.nextLine();
         Scanner sc=new Scanner(System.in);
+        System.out.println("Enter your name");
+        name=sc.nextLine();
         System.out.println("Enter your zodiac sign");
         zodiac=sc.nextLine();
-        Scanner sb=new Scanner(System.in);
         System.out.println("Enter your weight");
-        weight=sb.nextDouble();
-        Scanner sa=new Scanner(System.in);
+        weight=sc.nextDouble();
         System.out.println("Enter your lucky number");
-        number=sa.nextDouble();
+        number=sc.nextDouble();
     }
     void display()
     {

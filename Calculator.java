@@ -6,20 +6,12 @@ class Calculator
     Calculator()
     {
         Scanner sc=new Scanner(System.in);
-        double a=0;
         System.out.println("Enter the first number usage(in a):");
-        a=sc.nextInt();
-        x=a;
-        Scanner sb=new Scanner(System.in);
-        double b=0;
+        x=sc.nextInt();
         System.out.println("Enter the second number usage(in b):");
-        b=sb.nextInt();
-        y=b;
-        Scanner sa=new Scanner(System.in);
-        char c='\u0000';
+        y=sc.nextInt();
         System.out.println("Enter the character usage(in c):");
-        c=sa.next().charAt(0);
-        ch=c;
+        ch=sc.next().charAt(0);
     }
     double Addition()
     {

@@ -5,10 +5,8 @@ public class Telegram
     void accept()
     {
         Scanner sc=new Scanner(System.in);
-        double W=0;
-        System.out.println("Enter the amount of words(in W):");
-        W=sc.nextInt();
-        words=W;
+        System.out.println("Enter the amount of words(in words):");
+        words=sc.nextInt();
     }
     void compute()
     {

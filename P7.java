@@ -5,10 +5,8 @@ public class P7
     void accept()
     {
         Scanner sc=new Scanner(System.in);
-        double S=0;
-        System.out.println("Enter the sales(in S):");
-        S=sc.nextInt();
-        sales=S;
+        System.out.println("Enter the sales(in sales):");
+        sales=sc.nextInt();
     }
     void compute()
     {

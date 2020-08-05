@@ -5,10 +5,8 @@ public class Telephone
     void accept()
     {
         Scanner sc=new Scanner(System.in);
-        double C=0;
-        System.out.println("Enter the number of calls(in C):");
-        C=sc.nextInt();
-        calls=C;
+        System.out.println("Enter the number of calls(in calls):");
+        calls=sc.nextInt();
     }
     void compute()
     {

@@ -7,12 +7,10 @@ public class Greater
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the first number");
         num1=sc.nextDouble();
-        Scanner sb=new Scanner(System.in);
         System.out.println("Enter the second number");
-        num2=sb.nextDouble();
-        Scanner sa=new Scanner(System.in);
+        num2=sc.nextDouble();
         System.out.println("Enter the third number");
-        num3=sa.nextDouble();
+        num3=sc.nextDouble();
     }
     void compute()
     {

@@ -7,7 +7,6 @@ public class Swap
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the first number");
         num1=sc.nextDouble();
-        Scanner sb=new Scanner(System.in);
         System.out.println("Enter the second number");
         num2=sc.nextDouble();
     }

@@ -5,10 +5,8 @@ public class Distance
     void accept()
     {
         Scanner sc=new Scanner(System.in);
-        double D=0;
-        System.out.println("Enter the distance travelled(in D):");
-        D=sc.nextInt();
-        distance=D;
+        System.out.println("Enter the distance travelled(in distance):");
+        distance=sc.nextDouble();
     }
     void compute()
     {

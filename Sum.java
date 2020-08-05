@@ -7,9 +7,8 @@ public class Sum
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the first number");
         num1=sc.nextDouble();
-        Scanner sb=new Scanner(System.in);
         System.out.println("Enter the second number");
-        num2=sb.nextDouble();
+        num2=sc.nextDouble();
     }
     void compute()
     {

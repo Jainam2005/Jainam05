@@ -6,15 +6,10 @@ public class Income_Tax
     void accept()
     {
         Scanner sc=new Scanner(System.in);
-        double I=0;
-        System.out.println("Enter the Income(in D):");
-        I=sc.nextInt();
-        Income=I;
-        Scanner sb=new Scanner(System.in);
-        String N="";
         System.out.println("Enter the name of the employee(in N):");
-        N=sb.nextLine();
-        Name=N;
+        Name=sc.nextLine();
+        System.out.println("Enter the Income(in D):");
+        Income=sc.nextInt();
     }
     void compute()
     {
