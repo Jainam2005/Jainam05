@@ -6,9 +6,9 @@ public class Exponent
     {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the number of terms in the series");
-        n=sc.nextInt();
+        n=sc.nextDouble();
         System.out.println("Enter the number");
-        x=sc.nextInt();
+        x=sc.nextDouble();
     }
     void compute()
     {
