@@ -6,9 +6,9 @@ class Wages
     {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the hours of usage(in Hours):");
-        H=sc.nextInt();
+        H=sc.nextDouble();
         System.out.println("Enter the rate of usage(in Rate):");
-        R=sc.nextInt();
+        R=sc.nextDouble();
     }
     void compute()
     {
