@@ -7,7 +7,7 @@ class Electric_Bill
     {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the units used(in u):");
-        units=sc.nextInt();
+        units=sc.nextDouble();
     }
     void compute()
     {
