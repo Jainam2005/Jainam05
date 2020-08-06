@@ -7,11 +7,11 @@ class Bill
     {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the Internet usage(in mins):");
-        usage=sc.nextInt();
+        usage=sc.nextDouble();
     }
     void generateBill()
     {
-        if(usage>=0 && usage<=60)
+        if(usage>0 && usage<=60)
         {
             bill=20;
         }
@@ -21,7 +21,7 @@ class Bill
         }
         else if(usage>90 && usage<=105)
         {
-            bill=20+12+18;
+            bill=20+12+8;
         }
         else
         {

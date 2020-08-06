@@ -11,7 +11,7 @@ class Electric_Bill
     }
     void compute()
     {
-        if(units>=0 && units<=100)
+        if(units>0 && units<=100)
         {
             bill=500+(40*units/100);
         }
