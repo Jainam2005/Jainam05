@@ -6,7 +6,7 @@ public class P7
     {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the sales(in sales):");
-        sales=sc.nextInt();
+        sales=sc.nextDouble();
     }
     void compute()
     {

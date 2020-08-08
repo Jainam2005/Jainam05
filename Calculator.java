@@ -7,9 +7,9 @@ class Calculator
     {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the first number usage(in a):");
-        x=sc.nextInt();
+        x=sc.nextDouble();
         System.out.println("Enter the second number usage(in b):");
-        y=sc.nextInt();
+        y=sc.nextDouble();
         System.out.println("Enter the character usage(in c):");
         ch=sc.next().charAt(0);
     }
