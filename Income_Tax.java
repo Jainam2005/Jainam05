@@ -9,7 +9,7 @@ public class Income_Tax
         System.out.println("Enter the name of the employee(in N):");
         Name=sc.nextLine();
         System.out.println("Enter the Income(in D):");
-        Income=sc.nextInt();
+        Income=sc.nextDouble();
     }
     void compute()
     {
@@ -21,7 +21,7 @@ public class Income_Tax
         {
             tax=(Income-40000)*20/100;
         }
-        else if(Income>70000 && Income<=10000)
+        else if(Income>70000 && Income<=100000)
         {
             tax=30000*20/100+(Income-70000)*30/100;
         }
