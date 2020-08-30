@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class Factors
 {
-    double sum=0, num;
+    double num;
     void input()
     {
         Scanner sc=new Scanner(System.in);

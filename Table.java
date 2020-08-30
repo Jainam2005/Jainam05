@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class Table
 {
-    double sum=1, num;
+    double sum, num;
     void input()
     {
         Scanner sc=new Scanner(System.in);

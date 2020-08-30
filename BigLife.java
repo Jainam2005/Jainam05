@@ -27,8 +27,8 @@ public class BigLife
         }
         else
         {
-            Discount=(PurchasedAmount-2000)*3/100;
-            NetAmount=PurchasedAmount-2000-Discount;
+            Discount=(PurchasedAmount-2000)*3/100+2000;
+            NetAmount=PurchasedAmount-Discount;
         }
     }
     void display()
