@@ -7,12 +7,13 @@ public class Menu1
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the number");
         num=sc.nextInt();
-    }   
+    }
     void generateMenu()
     {
         System.out.println("What would you like to do?");
         System.out.println("1. Check whether or not number is a Prime Number");
         System.out.println("2. Check whether or not number is a Automorphic Number");
+        System.out.println("Press any integer other than 1/2 to exit");
     }
     void findPrime()
     {
@@ -73,7 +74,7 @@ public class Menu1
                 obj.findAutomorphic();
                 break;
                 default:
-                break;
+                return;
             }
             System.out.println("Would you like to continue[y/n]?");
             choice=(sc.next()).charAt(0);

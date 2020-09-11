@@ -7,12 +7,13 @@ public class Menu
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the number");
         num=sc.nextInt();
-    }   
+    }
     void generateMenu()
     {
         System.out.println("What would you like to do?");
         System.out.println("1. Check whether or not number is a Palindrome Number");
         System.out.println("2. Check whether or not number is a Perfect Number");
+        System.out.println("Press any integer other than 1/2 to exit");
     }
     void findPalindrome()
     {

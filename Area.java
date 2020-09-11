@@ -7,6 +7,7 @@ public class Area
         System.out.println("1. Calculate Area of Circle");
         System.out.println("2. Calculate Area of Square");
         System.out.println("3. Calculate Area of rectangle");
+        System.out.println("Press any integer other than 1/2/3 to exit");
     }
     void area(double r)
     {
