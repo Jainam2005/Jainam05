@@ -55,21 +55,21 @@ public class Volume
             System.out.println("Enter your selection[1/2/3]:");
             opt=sc.nextInt();
             if(opt==1)
-            
+            {
                 obj.calcSphereVolume();
-            
+            }
             else if(opt==2)
-            
+            {
                 obj.calcCylinderVolume();
-            
+            }
             else if(opt==3)
-            
+            {
                 obj.calcConeVolume();
-            
+            }
             else
-            
+            {
                 return;
-            
+            }
             System.out.println("Would you like to continue [y/n]?");
             choice=(sc.next()).charAt(0);
         }while(choice=='y');

@@ -18,15 +18,6 @@ public class Area
         area=pi*r*r;
         System.out.println("The Area of Circle= "+area);
     }
-    void area(int side)
-    {
-        Scanner sc=new Scanner(System.in);
-        double area;
-        System.out.println("Enter the side of the Square");
-        side=sc.nextInt();
-        area=side*side;
-        System.out.println("The Area of the Square= "+area);
-    }
     void area(int length, int breadth)
     {
         Scanner sc=new Scanner(System.in);
@@ -37,6 +28,15 @@ public class Area
         breadth=sc.nextInt();
         area=length*breadth;
         System.out.println("The Area of the Rectangle= "+area);
+    }
+    void area(int side)
+    {
+        Scanner sc=new Scanner(System.in);
+        double area;
+        System.out.println("Enter the side of the Square");
+        side=sc.nextInt();
+        area=side*side;
+        System.out.println("The Area of the Square= "+area);
     }
     public static void main()
     {
