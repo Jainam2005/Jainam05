@@ -1,15 +1,35 @@
+/*1.Write a program in Java to print Floyd’s right angled triangle using the natural numbers.                                                                                  
+1
+2  3
+4  5  6
+7  8  9  10*/
+import java.util.Scanner;
 public class BoardQuestion1
 {
-    public static void main(String args[])
+    int n;
+    void getData()
     {
-        int i,j,k=1,num=4;
-        for(i=1;i<=num;i++)
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the number of rows");
+        n=sc.nextInt();
+    }
+    void generatePattern()
+    {
+        int count=0;
+        for(int i=1;i<=n;i++)
         {
-            for(j=1;j<=i;j++,k++)
+            for(int j=1;j<=i;j++)
             {
-                System.out.print(k+"");
+                count++;
+                System.out.print(""+count);
             }
             System.out.println();
         }
+    }
+    public static void main()
+    {
+        BoardQuestion1 obj=new BoardQuestion1();
+        obj.getData();
+        obj.generatePattern();
     }
 }
