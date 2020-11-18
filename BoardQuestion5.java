@@ -1,9 +1,9 @@
 /*5. Write a program to generate the patterns till n terms based upon the user’s choice of triangle to be displayed.                                             
- 1                                                 a b c d e
- 1 2                                               a b c d
- 1 2 3                                             a b c
- 1 2 3 4                                           a b
- 1 2 3 4 5				           a 	*/
+1                                                 5  5  5  5  5
+1 2                                               5  5  5  5
+1 2 3                                             5  5  5
+1 2 3 4                                           5  5
+1 2 3 4 5				          5*/
 import java.util.Scanner;
 public class BoardQuestion5
 {
@@ -39,7 +39,7 @@ public class BoardQuestion5
         {
             for(int j=1;j<=i;j++)
             {
-                System.out.print((char)(j+96));
+                System.out.print(""+5);
             }
             System.out.println();
         }

@@ -38,4 +38,3 @@ public class Magic
         obj.checkMagic();
     }
 }
-    
