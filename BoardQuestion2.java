@@ -1,26 +1,29 @@
+import java.util.Scanner;
 public class BoardQuestion2
 {
-    String name; 
-    float Salary;
-    float TotalSalary;
-    void init(String name1, float Salary1)
+    String name;
+    float base_salary;
+    void input(String name1)
     {
         name=name1;
-        Salary=Salary1;
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the Base Salary");
+        base_salary=sc.nextFloat();
     }
-    void salary()
+    float salary()
     {
-        TotalSalary=50*Salary/100+Salary;
+        float total_salary=base_salary*50/100+base_salary;
+        return total_salary;
     }
-    void Jainam()
+    void display()
     {
-        System.out.println("The total salary is"+TotalSalary);
+        System.out.println("The Name of the Employee is"+name);
     }
     public static void main()
     {
         BoardQuestion2 obj=new BoardQuestion2();
-        obj.init("Jainam", 54000);
-        obj.salary();
-        obj.Jainam();
+        obj.input("Jainam");
+        System.out.println("The Total Salary is"+obj.salary());
+        obj.display();
     }
 }
