@@ -11,7 +11,7 @@ import java.util.Scanner;
 public class BoardQuestion7
 {
     String Name;
-    int Roll_No, Marks;
+    int Roll_No, Science, Maths, Computers, English, Commerce;
     double Average;
     void input()
     {
@@ -20,12 +20,20 @@ public class BoardQuestion7
         Name=sc.next();
         System.out.println("Enter the Roll Number");
         Roll_No=sc.nextInt();
-        System.out.println("Enter the Marks of Five Subjects");
-        Marks=sc.nextInt();
+        System.out.println("Enter the Marks of Science Out of 100");
+        Science=sc.nextInt();
+        System.out.println("Enter the Marks of Maths Out of 100");
+        Maths=sc.nextInt();
+        System.out.println("Enter the Marks of Computers Out of 100");
+        Computers=sc.nextInt();
+        System.out.println("Enter the Marks of English Out of 100");
+        English=sc.nextInt();
+        System.out.println("Enter the Marks of Commerce Out of 100");
+        Commerce=sc.nextInt();
     }
     void calc()
     {
-        Average=Marks/5;
+        Average=(Science+Maths+Computers+English+Commerce)/5;
     }
     void Stream()
     {
