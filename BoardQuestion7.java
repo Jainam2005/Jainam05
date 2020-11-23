@@ -1,36 +1,66 @@
+/*7. A class, namely Student, has three data members viz. Name. Roll No. and Marks of five subjects. The stream is assigned which is based on the following criteria:                                                                               
+Average Marks Stream
+
+90% or above Science with Computers
+80% — 89% Science without Computers
+70% — 79% Commerce with Maths
+60% — 69% Commerce without Maths
+
+Write a program to declare the class, ‘Student’, and define the method of allotment of subjects*/
+import java.util.Scanner;
 public class BoardQuestion7
 {
-    public static void main(String name, int Roll_No, double M1, double M2, double M3, double M4, double M5)
+    String Name;
+    int Roll_No, Marks;
+    double Average;
+    void input()
     {
-        System.out.println(name);
-        System.out.println(Roll_No);
-        System.out.println(M1);
-        System.out.println(M2);
-        System.out.println(M3);
-        System.out.println(M4);
-        System.out.println(M5);
-        double Average=(M1+M2+M3+M4+M5)/5;
-        System.out.println(Average);
-        if(Average>=60 && Average<=69)
-        {
-            System.out.println("Commerce without Maths");
-        }
-        else if(Average>=70 && Average<=79)
-        {
-            System.out.println("Commerce with Maths");
-        }
-        else if(Average>=80 && Average<=89)
-        {
-            System.out.println("Science without Computers");
-        }
-        else if(Average>=90)
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the Name");
+        Name=sc.next();
+        System.out.println("Enter the Roll Number");
+        Roll_No=sc.nextInt();
+        System.out.println("Enter the Marks of Five Subjects");
+        Marks=sc.nextInt();
+    }
+    void calc()
+    {
+        Average=Marks/5;
+    }
+    void Stream()
+    {
+        if(Average>=90)
         {
             System.out.println("Science with Computers");
         }
+        else if(Average>=80 && Average<90)
+        {
+            System.out.println("Science without Computers");
+        }
+        else if(Average>=70 && Average<80)
+        {
+            System.out.println("Commerce with Maths");
+        }
+        else if(Average>=60 && Average<70)
+        {
+            System.out.println("Commerce without Maths");
+        }
         else
         {
-            System.out.println("Failed");
+            System.out.println("No Stream");
         }
     }
+    void display()
+    {
+        System.out.println("The Name is"+Name);
+        System.out.println("The Roll Number is"+Roll_No);
+    }
+    public static void main()
+    {
+        BoardQuestion7 obj=new BoardQuestion7();
+        obj.input();
+        obj.calc();
+        obj.display();
+        obj.Stream();
+    }
 }
-  
