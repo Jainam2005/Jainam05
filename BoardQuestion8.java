@@ -26,12 +26,10 @@ public class BoardQuestion8
     void Input()
     {
         Scanner sc=new Scanner(System.in);
-        System.out.println("Enter the Entry Fee");
-        EntryFee=sc.nextDouble();
         System.out.println("Enter the Age");
         Age=sc.nextInt();
-        System.out.println("Enter the Discount");
-        Discount=sc.nextDouble();
+        System.out.println("Enter the Entry Fee");
+        EntryFee=sc.nextDouble();
     }
     void Calculate()
     {
