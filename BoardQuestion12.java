@@ -20,7 +20,7 @@ public class BoardQuestion12
         System.out.println("Sorted Array:");
         for(int i=0;i<=nArray.length-1;i++)
         {
-            System.out.print(""+nArray[i]+",");
+            System.out.print(" "+nArray[i]+" ");
         }
         System.out.println();
     }
