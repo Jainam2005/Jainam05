@@ -2,10 +2,10 @@
 import java.util.Scanner;
 public class BoardQuestion15
 {
-    int[] AW;
+    int[] AW;//array of type int
     BoardQuestion15()
     {
-        AW=new int[8];
+        AW=new int[8];//array of size 8
     }
     void initialize()
     {

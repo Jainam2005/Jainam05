@@ -21,7 +21,7 @@ public class BoardQuestion4
         System.out.println("2. Recurring Deposit");
         System.out.println("Press any integer other than 1/2 to exit");
     }
-    void Term_Deposit()
+    void Term_Deposit()//Method which will calculate Term Deposit
     {
         double P, r, n, A;
         Scanner sc=new Scanner(System.in);
@@ -34,7 +34,7 @@ public class BoardQuestion4
         A=P*Math.pow((1+r/100), n);
         System.out.println("The Maturity Amount receivable is"+A);
     }
-    void Recurring_Deposit()
+    void Recurring_Deposit()//Method which will calculate Recurring Deposit
     {
         double P, r, n, A;
         Scanner sc=new Scanner(System.in);

@@ -16,14 +16,14 @@ public class BoardQuestion8
 {
     double EntryFee, Discount, Amount;
     int Age;
-    BoardQuestion8()
+    BoardQuestion8()//Constructor 
     {
         EntryFee=0.0;
         Age=0;
         Discount=0.0;
         Amount=0.0;
     }
-    void Input()
+    void Input()//To input values
     {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the Age");

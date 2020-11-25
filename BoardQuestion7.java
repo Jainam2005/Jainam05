@@ -11,9 +11,9 @@ import java.util.Scanner;
 public class BoardQuestion7
 {
     String Name;
-    int Roll_No, Science, Maths, Computers, English, Commerce;
+    int Roll_No, Science, Maths, Computers, English, Commerce;//instance variables
     double Average;
-    void input()
+    void input()//Input values from user
     {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the Name");

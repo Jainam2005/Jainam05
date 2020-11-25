@@ -4,7 +4,7 @@
 import java.util.Scanner;
 public class BoardQuestion9
 {
-    void seriesA()
+    void seriesA()//Calculate Sum of 1st series
     {
         double sum=0;
         for(int i=2;i<21;i+=2)
@@ -21,7 +21,7 @@ public class BoardQuestion9
         }
         System.out.println("The sum of the first series is"+sum);
     }
-    void seriesB()
+    void seriesB()//Calculate sum of 2nd series
     {
         double x, sum=0;
         Scanner sc=new Scanner(System.in);

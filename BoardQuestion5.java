@@ -14,7 +14,7 @@ public class BoardQuestion5
         System.out.println("2. Generate Inverted Triangle");
         System.out.println("Press any integer other than 1/2 to exit");
     }
-    void generateTriangle()
+    void generateTriangle()//Method which will generate normal triangle
     {
         int n;
         Scanner sc=new Scanner(System.in);
@@ -29,7 +29,7 @@ public class BoardQuestion5
             System.out.println();
         }
     }
-    void generateInvertedTriangle()
+    void generateInvertedTriangle()//Method which will generate Inverted Triangle
     {
         int n;
         Scanner sc=new Scanner(System.in);

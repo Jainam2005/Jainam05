@@ -9,13 +9,13 @@ import java.util.Scanner;
 public class BoardQuestion10Part1
 {
     int n;
-    void getData()
+    void getData()//to input value of n from user
     {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the Number of Rows in the Pattern");
         n=sc.nextInt();
     }
-    void generatePattern()
+    void generatePattern()//to generate pattern
     {
         for(int i=1;i<=n;i++)
         {

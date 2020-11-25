@@ -27,7 +27,7 @@ public class BoardQuestion11
         Marks2=new int[n];
         Marks3=new int[n];
     }
-    void Initialize()
+    void Initialize()//Used to input the array
     {
         Scanner sc=new Scanner(System.in);
         for(int i=0;i<n;i++)
@@ -44,7 +44,7 @@ public class BoardQuestion11
             Marks3[i]=sc.nextInt();
         }
     }
-    double calcAverage(int a, int b, int c)
+    double calcAverage(int a, int b, int c)//calculating average
     {
         int avg;
         avg=(a+b+c)/3;

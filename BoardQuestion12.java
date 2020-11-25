@@ -6,7 +6,7 @@ public class BoardQuestion12
     {
         nArray=new char[20];
     }
-    void initialize()
+    void initialize()//To input array
     {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the 20 Characters");
@@ -15,7 +15,7 @@ public class BoardQuestion12
             nArray[i]=sc.next().charAt(0);
         }
     }
-    void display()
+    void display()//Sort array
     {
         System.out.println("Sorted Array:");
         for(int i=0;i<=nArray.length-1;i++)

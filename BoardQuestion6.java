@@ -7,13 +7,13 @@ import java.util.Scanner;
 public class BoardQuestion6
 {
     long isbn, c=0;
-    void input()
+    void input()//Used to input number from user
     {
         Scanner sc=new Scanner(System.in);
-        System.out.println("Enter The ISBN Code");
+        System.out.println("Enter The Number");
         isbn=sc.nextLong();
     }
-    void checkISBN()
+    void checkISBN()//checking whether number is ISBN
     {
         for(long i=isbn;i>0;i=i/10)
         {

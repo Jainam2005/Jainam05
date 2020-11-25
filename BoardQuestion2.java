@@ -2,8 +2,8 @@ import java.util.Scanner;
 public class BoardQuestion2
 {
     String name;
-    float base_salary;
-    void input(String name1)
+    float base_salary;//Instance Variable
+    void input(String name1)//Parametrised Method
     {
         name=name1;
         Scanner sc=new Scanner(System.in);

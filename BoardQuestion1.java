@@ -23,12 +23,12 @@ public class BoardQuestion1
                 count++;
                 System.out.print(count+" ");
             }
-            System.out.println();
+            System.out.println();//Moving to next row
         }
     }
     public static void main()
     {
-        BoardQuestion1 obj=new BoardQuestion1();
+        BoardQuestion1 obj=new BoardQuestion1();//Creation of a object
         obj.getData();
         obj.generatePattern();
     }
